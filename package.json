@@ -1,0 +1,26 @@
+{
+  "name": "my-fitst-web-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shvec-es/my-fitst-web-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shvec-es/my-fitst-web-site/issues"
+  },
+  "homepage": "https://shvec-es.github.io/my-fitst-web-site",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
