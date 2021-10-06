@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,10 @@
   },
   "homepage": "https://shvec-es.github.io/my-fitst-web-site",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "nodemon": "^2.0.13"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4"
   }
 }
